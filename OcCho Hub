@@ -1170,12 +1170,12 @@ local Window = OrionLib:MakeWindow({
     HidePremium = false,
     IntroText = "OcCho Library", 
     SaveConfig = true, 
-    ConfigFolder = "Night Hub"
+    ConfigFolder = "OcCho Hub"
 })
 
 function Notify(Deo, Skid)
     OrionLib:MakeNotification({
-        Name = "[Night Hub]",
+        Name = "[OcCho Hub]",
         Content = Deo,
         Image = "rbxassetid://15541504459",
         Time = Skid
@@ -1197,10 +1197,11 @@ local Section = I:AddSection({
 	Name = "Info Owner"
 })
 
-I:AddLabel("Owner : ! NightX")
+I:AddLabel("Owner : ! HuyOcCho")
 I:AddLabel("Best Brothers : ! DestroyX & T...")
-I:AddLabel("Best Friends : House Of Blance")
-I:AddLabel("Dev : I Am Alone...")
+I:AddLabel("Best Friends : ☃ƒιχє∂ムɢєαя︵²ᵏ
+")
+I:AddLabel("Dev : I Am HuyOcCho...")
 
 local Section = I:AddSection({
 	Name = "Update and Discord"
@@ -1216,7 +1217,7 @@ I:AddButton({
 	Name = "Join My Discord",
 	Callback = function()
       	Notify("Set Link Discord In Your Clipboard...", 5)
-        setclipboard("https://discord.gg/R4xC3t2Xm8")
+        setclipboard("https://discord.gg/JKHNKEfHAB")
   	end    
 })
 
@@ -1435,7 +1436,7 @@ ST:AddToggle({
 ST:AddDropdown({
 	Name = "FastAttack Delay",
 	Default = "0.175",
-	Options = {"0", "0.1", "0.15", "0.155", "0.16", "0.165", "0.17", "0.175", "0.18", "0.185"},
+	Options = {"0", "0.1", "0.15", "0.155", "0.16", "0.165", "0.17", "0.175", "0.18", "0.185", "0.2"},
 	Callback = function(Value)
 		_G.FastAttackDelay = Value
 	end    
