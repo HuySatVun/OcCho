@@ -1168,7 +1168,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ngh
 local Window = OrionLib:MakeWindow({
     Name = "Blox Fruit(OcCho Hub)", 
     HidePremium = false,
-    IntroText = "Night Library", 
+    IntroText = "OcCho Library", 
     SaveConfig = true, 
     ConfigFolder = "Night Hub"
 })
@@ -1197,9 +1197,9 @@ local Section = I:AddSection({
 	Name = "Info Owner"
 })
 
-I:AddLabel("Owner : ! NightX")
-I:AddLabel("Best Brothers : ! DestroyX & T...")
-I:AddLabel("Best Friends : House Of Blance")
+I:AddLabel("Owner : ! HuyOcCho")
+I:AddLabel("Best Friends : ☃ƒιχє∂ムɢєαя︵²ᵏ
+")
 I:AddLabel("Dev : I Am Alone...")
 
 local Section = I:AddSection({
