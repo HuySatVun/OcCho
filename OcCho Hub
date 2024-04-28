@@ -9,13 +9,13 @@ else
 end
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Night Hub",
+	Title = "OcCho Hub",
 	Text = "Loading...",
 	Icon = "rbxassetid://15541504459"
 })
 wait(3)
 game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Night Hub",
+	Title = "OcCho Hub",
 	Text = "Loading Complete",
 	Icon = "rbxassetid://15541504459"
 })
@@ -1216,7 +1216,7 @@ I:AddButton({
 	Name = "Join My Discord",
 	Callback = function()
       	Notify("Set Link Discord In Your Clipboard...", 5)
-        setclipboard("https://discord.gg/JKHNKEfHAB")
+        setclipboard("https://discord.gg/cCG9gqCPJP")
   	end    
 })
 
